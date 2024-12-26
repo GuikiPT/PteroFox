@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "colors": "^1.4.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "figlet-promised": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "micromatch": "^4.0.8",
+    "path": "^0.12.7",
+    "prompts": "^2.4.2",
+    "winston": "^3.17.0"
+  },
+  "name": "pterofox",
+  "version": "1.0.0",
+  "description": "An bot for Pterodactyl Panel managment thought discord.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "GuikiPT",
+  "license": "ISC"
+}
