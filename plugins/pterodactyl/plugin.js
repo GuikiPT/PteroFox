@@ -10,7 +10,7 @@ const eventsPath = path.resolve(__dirname, 'events');
 
 module.exports = {
   name: 'Pterodactyl',
-  description: 'Pterodactyl Panel Managment thought the Bot-',
+  description: 'Pterodactyl Panel Management through the Bot',
   commands: fs.existsSync(commandsPath) ? listFiles(commandsPath, excludedCommands, true) : [],
   events: fs.existsSync(eventsPath) ? listFiles(eventsPath, excludedEvents, true) : [],
 };
